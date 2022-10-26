@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+#header {
+    padding: 25px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: had 2s ease-in-out;
+}
+@keyframes had {
+    0% {
+        transform: translateY(-1000px);
+    }
+
+}
+.header h1 {
+    font-weight: 900;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+.header-logo a {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+.header-title a {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+#hero {
+    background: #100E14;
+    min-height: 30vh;
+}
+.hero h1 {
+    font-weight: 400;
+    font-size: 63px;
+    text-align: center;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.hero p {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 50px 0;
+}
+.hero button {
+    width: 281px;
+    height: 66px;
+    background: #FF4343;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero span {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding: 25px 0;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0;
+}
+.hero-img {
+    position: relative;
+    padding: 30px 0;
+}
+.hero-tel {
+    position: absolute;
+    top: 30px;
+    right: 1px;
+}
+#shoot {
+    background: #100E14;
+}
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shoot h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+}
+.shoot p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 35px 0;
+}
+.shoot-img {
+    position: relative;
+}
+.shooter-tel {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+#lime {
+    background: #100E14;
+
+}
+.lime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 100px 0;
+}
+.lime h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+}
+.lime p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 30px 0;
+}
+.lime span {
+    color: #FFFFFF;
+}
+#activ {
+    background: #100E14;
+    min-height: 30vh;
+}
+.activ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 150px 0;
+}
+.activ-title h1 {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+.activ-title p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.activ-title span {
+    color: #FFFFFF;
+}
+#link {
+    background: #100E14;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 50px 0;
+}
+.link h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+.link p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.link span {
+    color: #FFFFFF;
+}
+#craft {
+    background: #100E14;
+
+}
+.craft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.line {
+    width: 120px;
+    height: 5px;
+    background: #FF4343;
+    border-radius: 0px;
+    margin: 20px 0;
+}
+.craft h1 {
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+.craft p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.card-title h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.card-title p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.card {
+    position: relative;
+}
+.card-title {
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+    background: rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(50px);
+    border-radius: 6px;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 251px;
+    height: 452px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+#users {
+    background: #100E14;
+}
+.users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.users span {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #8BFFB0;
+}
+.users h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+}
+.users p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 40px 0;
+}
+.users img {
+    animation: user 2s infinite ease-in-out;
+}
+@keyframes user {
+ 0% {
+     opacity: 0.5;
+ }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+#start {
+    background: #100E14;
+}
+
+.start-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 100px;
+    height: 433px;
+    background: #1D1B24;
+    border-radius: 30px;
+}
+
+.start-title h1 {
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 91px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+}
+.start-title p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.start-title button {
+    width: 281px;
+    height: 66px;
+    background: #FF4343;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.start-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.start-img img {
+    width: 132%;
+}
+.start-lesson {
+    position: absolute;
+}
+.start-lesson h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+
+}
+.start-lesson p {
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#course {
+    background: #100E14;
+}
+.course {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+.nova-title h1 {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.course-left {
+    display: flex;
+    align-items: flex-end;
+}.course-right {
+    display: flex;
+    align-items: flex-end;
+}
+.nova-youtube {
+    display: flex;
+    align-items: flex-start;
+}
+.nov-youtube {
+    display: flex;
+    align-items: flex-start;
+}
+.nova-youtube p {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.nov-youtube p {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.nova-youtube a {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.nov-youtube a {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.course-img {
+    position: relative;
+}
+.courses-img {
+    position: relative;
+}
+.nova-title {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+.nov-title {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+.course-card {
+    position: relative;
+    width: 294px;
+    height: 439px;
+    background: #94ecc7;
+    padding: 0 20px;
+}
+.courses-card {
+    position: relative;
+    width: 294px;
+    height: 439px;
+    background: #94ecc7;
+    padding: 0 20px;
+}
+.course-card h2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    color: #95FEC1;
+    padding: 20px 0;
+}
+.courses-card h2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    color: #95FEC1;
+    padding: 20px 0;
+}
+.course-card h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.courses-card h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.course-card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.courses-card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+
+.nova-card-signup {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+.nov-card-signup {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+.nova-card-signup h1 {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+}
+.nov-card-signup h1 {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+}
+.nova-card-signup a {
+    padding-top: 20px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.nov-card-signup a {
+    padding-top: 20px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+#product {
+    background: #100E14;
+    min-height: 100vh;
+}
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.product-title h1 {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.product-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.16px;
+    color: #FFFFFF;
+}
+.company  h1 {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.company p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.16px;
+    color: #FFFFFF;
+}
+.faq h1 {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.faq p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.16px;
+    color: #FFFFFF;
+}
+.icon a {
+   color: #FFFFFF;
+   font-size: 28px;
+
+}
+
+
+
+
+
+
